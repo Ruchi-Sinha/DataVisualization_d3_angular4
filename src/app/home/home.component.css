@@ -1,0 +1,12 @@
+.main-wrapper{
+    padding-top : 10px;
+    color:gold;
+    width: 100%;
+    height:570px;   
+}
+.inner-wrapper{
+    padding: 10px 10px 10px 10px;
+    color:gold;
+    width: 100%;
+    height:540px;
+}

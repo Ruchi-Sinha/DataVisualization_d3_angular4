@@ -1,0 +1,28 @@
+<div class="form-group">
+  <div class="col-md-6" >
+    <input type="text" 
+           class="form-control" placeholder="Search By Category" />
+  </div>
+</div>
+<div class="main-wrapper table-responsive">
+<table class="table table-hover table-bordered">
+   <thead class="thead-default">
+    <tr>
+      <th>#</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = "let data of source;let i = index">
+      <td>{{i+1}}</td>
+      <td>{{data.firstname}}</td>
+      <td>{{data.lastname}}</td>
+      <td>{{data.email}}</td>
+      <td>{{data.number}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
